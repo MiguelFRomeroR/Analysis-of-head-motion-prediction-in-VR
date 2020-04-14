@@ -1,0 +1,38 @@
+Fan_NOSSDAV_17:
+	All .mp4 files inside folder "Fan_NOSSDAV_17/dataset/content/saliency"
+	All .mp4 files inside folder "Fan_NOSSDAV_17/dataset/content/motion"
+	All files inside folder "Fan_NOSSDAV_17/dataset/sensory/orientation"
+	All files inside folder "Fan_NOSSDAV_17/dataset/sensory/raw"
+	All files inside folder "Fan_NOSSDAV_17/dataset/sensory/tile"
+	File "Fan_NOSSDAV_17/dataset/readme.txt"
+
+	Comment: The files in folder "Fan_NOSSDAV_17/dataset/sensory/tile_replica":
+			all files were created following the function "create_and_store_tile_probability_replica(original_dataset)" in "Fan_NOSSDAV_17/Reading_Dataset.py"
+		The file "Fan_NOSSDAV_17/dataset/content/creation_of_scaled_images.sh" was manually created by Miguel Romero
+		The files in folder "Fan_NOSSDAV_17/dataset/content/saliency" and "Fan_NOSSDAV_17/dataset/content/motion" are created using the file "Fan_NOSSDAV_17/dataset/content/creation_of_scaled_images.sh"
+
+Xu_CVPR_18:
+	All files inside folder "Xu_CVPR_18/dataset/Gaze_txt_files"
+	All .mp4 files inside folder "Xu_CVPR_18/dataset/Videos"
+	File "Xu_CVPR_18/dataset/README.txt"
+	File "Xu_CVPR_18/dataset/train_test_set.xlsx"
+	Comments:
+		The file "Xu_CVPR_18/dataset/creation_of_scaled_images.sh" was manually created by Miguel Romero
+		The folders per video in "Xu_CVPR_18/dataset/Videos" were created following the commands in the file "Xu_CVPR_18/dataset/creation_of_scaled_images.sh"
+
+Xu_PAMI_18:
+	All files inside the folder "Xu_PAMI_18/dataset", except:
+	All .mp4 files inside folder "Xu_PAMI_18/dataset/videos"
+	File "Xu_PAMI_18/dataset/FULLdata_per_video_frame.mat"
+	Comments:
+		The files "Xu_PAMI_18/dataset/data/[USERNAME]/NotBeAloneTonight (1).txt" was renamed to "Xu_PAMI_18/dataset/data/[USERNAME]/NotBeAloneTonight.txt" given what is written in the file "Xu_PAMI_18/dataset/data/rename.bat"
+		The file "Xu_PAMI_18/dataset/creation_of_scaled_images.sh" was manually created by Miguel Romero
+		The folders per video in "Xu_PAMI_18/dataset/videos" created following the commands in the file "Xu_PAMI_18/dataset/creation_of_scaled_images.sh"
+
+
+David_MMSys_18:
+	All .csv files in "David_MMSys_18/dataset/Videos/H/Scanpaths"
+	All .mp4 files in "David_MMSys_18/dataset/Videos/Stimuli"
+	File "David_MMSys_18/dataset/Videos/Stimuli/fps"
+	File "David_MMSys_18/dataset/Videos/Readme_Videos.md"
+
